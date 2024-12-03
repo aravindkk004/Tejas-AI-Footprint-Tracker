@@ -1,40 +1,49 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Carbon Footprint Tracker (Tejas AI) 🌱
 
-## Getting Started
+A modern web application designed to help users calculate, monitor, and reduce their carbon footprint. Built with **Next.js**, **TailwindCSS**, **MongoDB**, and **AWS services**, this platform aims to promote sustainable living and environmental awareness.
 
-First, run the development server:
+## Features
+- 🌍 **Calculate Carbon Footprint**: Easily compute your daily, monthly, or yearly carbon footprint based on your activities.
+- 📊 **Track Progress**: Monitor trends and insights to reduce your environmental impact.
+- 🎨 **Responsive Design**: User-friendly interface powered by TailwindCSS for a seamless experience across devices.
+- 🔒 **Privacy First**: Your data is safe, secure, and accessible only to you.
+
+## Tech Stack
+- **Frontend**: [Next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/)
+- **Backend**: Node.js APIs with MongoDB as the database
+- **Cloud Services**: AWS (S3, Lambda, etc.) for secure and scalable infrastructure
+
+## Installation
+
+1. **Clone the repository**:
+   ```
+   git clone https://github.com/your-username/carbon-footprint-tracker.git
+   cd carbon-footprint-tracker ```
+2. **Install dependencies**:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Copy code
+npm install
 ```
+3. **Set up environment variables**:
+    Create a .env.local file in the root directory and configure the following:
+```
+MONGODB_URI=your-mongodb-connection-string
+AWS_ACCESS_KEY_ID=your-aws-access-key
+AWS_SECRET_ACCESS_KEY=your-aws-secret-key
+NEXT_PUBLIC_API_URL=your-api-url
+```
+4. **Run the development server**:
+```
+npm run dev
+```
+5. **Visit the application**:
+    Open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Deployment**
+  Deploy the application on platforms like Vercel or AWS Amplify for production. Ensure that environment variables are correctly configured for the production environment.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**Contributing**
+Contributions are welcome! Please follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# TejasAI-2.0
->>>>>>> 8bf12ba9f864aa2481712063c6bb649cc83c4d51
+Let's make sustainable living easy and accessible for everyone! 🌿
