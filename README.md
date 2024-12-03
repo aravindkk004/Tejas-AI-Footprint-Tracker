@@ -16,25 +16,24 @@ A modern web application designed to help users calculate, monitor, and reduce t
 ## Installation
 
 1. **Clone the repository**:
-   ```
-   git clone https://github.com/your-username/carbon-footprint-tracker.git
+   ```bash
+   git clone https://github.com/your-username/Tejas-AI-Footprint-Tracker.git
    cd carbon-footprint-tracker ```
 2. **Install dependencies**:
 
 ```bash
-Copy code
 npm install
 ```
 3. **Set up environment variables**:
     Create a .env.local file in the root directory and configure the following:
-```
+```bash
 MONGODB_URI=your-mongodb-connection-string
 AWS_ACCESS_KEY_ID=your-aws-access-key
 AWS_SECRET_ACCESS_KEY=your-aws-secret-key
 NEXT_PUBLIC_API_URL=your-api-url
 ```
 4. **Run the development server**:
-```
+```bash
 npm run dev
 ```
 5. **Visit the application**:
